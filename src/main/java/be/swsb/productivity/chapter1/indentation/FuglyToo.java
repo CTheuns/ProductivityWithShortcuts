@@ -4,20 +4,22 @@ import static be.swsb.productivity.common.FaceTestBuilder.face;
 import static be.swsb.productivity.common.FuglyTestBuilder.fugly;
 
 public class FuglyToo {
-
+    // this method is fugly
+    // such fugliness should never be allowed
+    //herpty
     public static void indentMeProperlyPlease() {
         System.out.println(fugly()
-                .withEff("f")
-                                            .withYew("u")
-    .withGee("g")
-                    .withEll("l")
-                                                    .withYew("y")
-            .withFace(face()
-                                    .withEyes(1)
-                        .withColor("poop-brown")
-        .withNosewidth(500)
-.build())
-                            .build()
-                                                                    .toString());
+                                   .withEff("f")
+                                   .withYew("u")
+                                   .withGee("g")
+                                   .withEll("l")
+                                   .withYew("y")
+                                   .withFace(face()
+                                                     .withEyes(1)
+                                                     .withColor("poop-brown")
+                                                     .withNosewidth(500)
+                                                     .build())
+                                   .build()
+                                   .toString());
     }
 }

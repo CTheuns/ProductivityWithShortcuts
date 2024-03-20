@@ -14,7 +14,11 @@ public class Chapter2 {
         return "The quick brown fox ";
     }
 
-    private String jumpUsingStrategy() { return JumperStrategyFactory.epicJumperStrategy().jump(); }
+    private String jumpUsingStrategy() {return JumperStrategyFactory.epicJumperStrategy().jump();}
+
+    private String kakdilla() {
+        return "horocho";
+    }
 
     private String camel() {
         return "the lazy camel";
